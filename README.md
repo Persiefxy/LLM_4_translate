@@ -36,7 +36,7 @@ python evaluation.py --method BLEU --ref ./translate_result/GLM/... --result ./t
 | ChatGLM-6b  | 17.06  | 21.84  |
 
 * Result on WMT22
-  
+
 | Method| BLEU | CHRF |
 | ------ | ------ | ------ |
 | LlaMa2-7b|  4.56 | 14.14  |
