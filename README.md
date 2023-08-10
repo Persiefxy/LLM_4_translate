@@ -26,14 +26,19 @@ python evaluation.py --method BLEU --ref ./translate_result/GLM/... --result ./t
 
 --result is the file where the translation results are stored.
 
-## result
-* result on WMT20
+## Result
+* Result on WMT20
 
-| method| BLEU | CHRF |
+| Method| BLEU | CHRF |
 | ------ | ------ | ------ |
 | LlaMa2-7b| 5.52  | 12.42  |
 | Chinese_LlaMa2-7b  | 7.99  | 12.35  |
 | ChatGLM-6b  | 17.06  | 21.84  |
 
-* result on wmt22
-
+* Result on WMT22
+* 
+| Method| BLEU | CHRF |
+| ------ | ------ | ------ |
+| LlaMa2-7b|  4.56 | 14.14  |
+| Chinese_LlaMa2-7b  |  6.01 | 11.98  |
+| ChatGLM-6b  |19.33   |  29.19 |
