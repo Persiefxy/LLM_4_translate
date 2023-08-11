@@ -29,16 +29,16 @@ python evaluation.py --method BLEU --ref ./translate_result/GLM/... --result ./t
 ## Result
 * Result on WMT20
 
-| Method| BLEU | CHRF |
-| ------ | ------ | ------ |
-| LlaMa2-7b| 5.52  | 12.42  |
-| Chinese_LlaMa2-7b  | 7.99  | 12.35  |
-| ChatGLM-6b  | 17.06  | 21.84  |
+| Method| BLEU | CHRF |COMET|
+| ------ | ------ | ------ |------|
+| LlaMa2-7b| 5.52  | 12.42  |60.26|
+| Chinese_LlaMa2-7b  | 7.99  | 12.35  |72.46|
+| ChatGLM-6b  | 17.06  | 21.84  |80.21|
 
 * Result on WMT22
 
 | Method| BLEU | CHRF |
-| ------ | ------ | ------ |
-| LlaMa2-7b|  4.56 | 14.14  |
-| Chinese_LlaMa2-7b  |  6.01 | 11.98  |
-| ChatGLM-6b  |19.33   |  29.19 |
+| ------ | ------ | ------ |------ |
+| LlaMa2-7b|  4.56 | 14.14  |55.58|
+| Chinese_LlaMa2-7b  |  6.01 | 11.98  |71.39|
+| ChatGLM-6b  |19.33   |  29.19 |81.02|
